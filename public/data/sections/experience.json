@@ -1,0 +1,260 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            },
+            "es": {
+                "title_short": "Experiencia",
+                "title_short_nav": "Experiencia",
+                "title_long_prefix": "Resumen de mi",
+                "title_long": "Experiencia {{Laboral}}"
+            },
+            "fr": {
+                "title_short": "Expérience",
+                "title_short_nav": "Expérience",
+                "title_long_prefix": "Résumé de mon",
+                "title_long": "Parcours {{Professionel}}"
+            },
+            "ko": {
+                "title_short": "경험",
+                "title_short_nav": "경험",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{직업적}} 경험"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/timeline-place-sapphire-studio.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2016, "month": 3},
+                    "dateEnd": {"year": 2018, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "{{Customer}} Sale Associate",
+                            "province": "Onsite",
+                            "country": "Pakistan",
+                            "institution": "Divine Communications",
+                            "text": "Developed and maintained [[sale funnel]] for various clients, optimizing sales performance and implementing strategies to improve customer experiences.",
+                            "list": [],
+                            "tags": ["Sales", "Customer Relationship", "Laravel"]
+                        },
+                        "es": {
+                            "title": "Desarrollador {{Backend}}",
+                            "province": "Toronto",
+                            "country": "Canadá",
+                            "institution": "Sapphire Studio",
+                            "text": "Desarrollé y mantuve [[sistemas backend escalables]] para varios clientes, optimizando el rendimiento de bases de datos e implementando APIs RESTful para mejorar la funcionalidad de las aplicaciones.",
+                            "list": [],
+                            "tags": []
+                        },
+                        "es": {
+            "title": "Representante de Servicio al Cliente",
+            "province": "Presencial y Remoto",
+            "country": "Pakistán",
+            "institution": "Circle BPO",
+            "text": "Atendí llamadas entrantes para la campaña de Panther Taxis, con sede en el Reino Unido, reservando viajes y ayudando a los clientes con información en tiempo real sobre los viajes y cambios.",
+            "list": [],
+            "tags": ["Atención al Cliente", "Llamadas Entrantes", "Asistencia al Cliente"]
+        },
+        "fr": {
+            "title": "Représentant du Service Client",
+            "province": "Sur site et à distance",
+            "country": "Pakistan",
+            "institution": "Circle BPO",
+            "text": "J'ai géré des appels entrants pour la campagne Panther Taxis basée au Royaume-Uni, réservant des trajets et aidant les clients avec des informations en temps réel sur les trajets et les modifications.",
+            "list": [],
+            "tags": ["Service Client", "Appels entrants", "Assistance client"]
+        },
+        "ko": {
+            "title": "고객 서비스 담당자",
+            "province": "현장 및 원격",
+            "country": "파키스탄",
+            "institution": "Circle BPO",
+            "text": "영국에 기반을 둔 Panther Taxis 캠페인에 대해 인바운드 전화를 처리하고, 실시간 여행 정보 및 변경 사항을 통해 고객을 지원했습니다.",
+            "list": [],
+            "tags": ["고객 지원", "인바운드 전화", "고객 지원"]
+        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/timeline-place-coursera.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2018, "month": 6},
+                    "dateEnd": {"year": 2020, "month": 12},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Engineer",
+                            "province": "",
+                            "country": "Remote",
+                            "institution": "Coursera",
+                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
+                            "list": [],
+                            "tags": ["Svelte", "NodeJS", "Laravel", "REST APIs", "Docker"]
+                        },
+                        "en": {
+            "title": "Customer Service Representative",
+            "title_long_prefix": "Explore my",
+            "title_long": "Customer Service Representative Role at Circle BPO",
+            "province": "Onsite and Remote",
+            "country": "Pakistan",
+            "institution": "Circle BPO",
+            "text": "Handled inbound calls for the UK-based Panther Taxis campaign, booking rides and assisting customers with real-time ride information and changes.",
+            "list": [],
+            "tags": ["Customer Support", "Inbound Calls", "Customer Assistance"]
+        },
+        "es": {
+            "title": "Representante de Servicio al Cliente",
+            "title_long_prefix": "Explora mi",
+            "title_long": "Rol de Representante de Servicio al Cliente en Circle BPO",
+            "province": "Presencial y Remoto",
+            "country": "Pakistán",
+            "institution": "Circle BPO",
+            "text": "Atendí llamadas entrantes para la campaña de Panther Taxis, con sede en el Reino Unido, reservando viajes y ayudando a los clientes con información en tiempo real sobre los viajes y cambios.",
+            "list": [],
+            "tags": ["Atención al Cliente", "Llamadas Entrantes", "Asistencia al Cliente"]
+        },
+        "fr": {
+            "title": "Représentant du Service Client",
+            "title_long_prefix": "Découvrez mon",
+            "title_long": "Rôle de Représentant du Service Client chez Circle BPO",
+            "province": "Sur site et à distance",
+            "country": "Pakistan",
+            "institution": "Circle BPO",
+            "text": "J'ai géré des appels entrants pour la campagne Panther Taxis basée au Royaume-Uni, réservant des trajets et aidant les clients avec des informations en temps réel sur les trajets et les modifications.",
+            "list": [],
+            "tags": ["Service Client", "Appels entrants", "Assistance client"]
+        },
+        "ko": {
+            "title": "고객 서비스 담당자",
+            "title_long_prefix": "저의",
+            "title_long": "Circle BPO에서의 고객 서비스 담당자 역할",
+            "province": "현장 및 원격",
+            "country": "파키스탄",
+            "institution": "Circle BPO",
+            "text": "영국에 기반을 둔 Panther Taxis 캠페인에 대해 인바운드 전화를 처리하고, 실시간 여행 정보 및 변경 사항을 통해 고객을 지원했습니다.",
+            "list": [],
+            "tags": ["고객 지원", "인바운드 전화", "고객 지원"]
+        }
+    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/timeline-place-adobe.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2020, "month": 12},
+                    "dateEnd": {"year": 2022, "month": 11},
+                    "locales": {
+                       "en": {
+        "title": "Business Development Executive",
+        "province": "Remote",
+        "country": "Pakistan",
+        "institution": "Elite Quotes",
+        "text": "Worked as a Business Development Executive for Elite Quotes, focusing on outbound campaigns in the US market, including Auto Insurance live transfers and Solar lead generation.",
+        "list": [],
+        "tags": ["Business Development", "Outbound Campaigns", "Lead Generation", "Sales"]
+    },
+    "es": {
+        "title": "Ejecutivo de Desarrollo de Negocios",
+        "province": "Remoto",
+        "country": "Pakistán",
+        "institution": "Elite Quotes",
+        "text": "Trabajé como Ejecutivo de Desarrollo de Negocios para Elite Quotes, centrándome en campañas salientes en el mercado de EE. UU., incluyendo transferencias en vivo de seguros de automóviles y generación de leads para energía solar.",
+        "list": [],
+        "tags": []
+    },
+    "fr": {
+        "title": "Responsable du Développement Commercial",
+        "province": "À distance",
+        "country": "Pakistan",
+        "institution": "Elite Quotes",
+        "text": "J'ai travaillé en tant que Responsable du Développement Commercial pour Elite Quotes, en me concentrant sur les campagnes sortantes sur le marché américain, y compris les transferts en direct pour l'assurance automobile et la génération de leads pour l'énergie solaire.",
+        "list": [],
+        "tags": []
+    },
+    "ko": {
+        "title": "비즈니스 개발 임원",
+        "province": "원격",
+        "country": "파키스탄",
+        "institution": "Elite Quotes",
+        "text": "Elite Quotes에서 비즈니스 개발 임원으로 근무하며, 미국 시장에서 아웃바운드 캠페인에 집중하였고, 자동차 보험 실시간 전송 및 태양광 리드 생성 업무를 수행했습니다.",
+        "list": [],
+        "tags": []
+    }
+}
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-apple",
+                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
+                    "dateStart": {"year": 2022, "month": 12},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                         "en": {
+        "title": "WordPress Developer",
+        "province": "Remote",
+        "country": "Malaysia",
+        "institution": "Phitomas Sdn Bhd",
+        "text": "Developed and customized WordPress websites for multiple Malaysian and international clients, ensuring responsive, high-performance output. Built custom themes from scratch based on client requirements, utilizing best practices in HTML, CSS, PHP, and JavaScript. Compiled and analyzed detailed performance reports for both modules, offering actionable insights to senior management and driving data-informed decision-making. Designed and developed custom plugins to enhance site functionality and meet specific business needs.",
+        "list": [
+            "Developed WordPress websites for multiple clients",
+            "Built custom themes and plugins",
+            "Ensured high-performance and responsive output",
+            "Used HTML, CSS, PHP, and JavaScript",
+            "Provided actionable insights for decision-making"
+        ],
+        "tags": ["WordPress", "PHP", "JavaScript", "HTML", "CSS", "Custom Themes", "Plugins"]
+    },
+    "es": {
+        "title": "Desarrollador WordPress",
+        "province": "Remoto",
+        "country": "Malasia",
+        "institution": "Phitomas Sdn Bhd",
+        "text": "Desarrollé y personalicé sitios web de WordPress para varios clientes de Malasia e internacionales, garantizando una salida de alto rendimiento y responsiva. Creé temas personalizados desde cero según los requisitos del cliente, utilizando las mejores prácticas en HTML, CSS, PHP y JavaScript. Compilé y analicé informes detallados de rendimiento para ambos módulos, ofreciendo información procesable a la alta dirección y fomentando la toma de decisiones basada en datos. Diseñé y desarrollé complementos personalizados para mejorar la funcionalidad del sitio y satisfacer las necesidades comerciales específicas.",
+        "list": [],
+        "tags": []
+    },
+    "fr": {
+        "title": "Développeur WordPress",
+        "province": "Télétravail",
+        "country": "Malaisie",
+        "institution": "Phitomas Sdn Bhd",
+        "text": "Développé et personnalisé des sites Web WordPress pour plusieurs clients malaisiens et internationaux, garantissant une sortie réactive et haute performance. Création de thèmes personnalisés à partir de zéro en fonction des exigences des clients, en utilisant les meilleures pratiques en HTML, CSS, PHP et JavaScript. Compilation et analyse de rapports détaillés de performance pour les deux modules, fournissant des informations exploitables à la direction et favorisant la prise de décisions éclairées. Conception et développement de plugins personnalisés pour améliorer la fonctionnalité du site et répondre aux besoins commerciaux spécifiques.",
+        "list": [],
+        "tags": []
+    },
+    "ko": {
+        "title": "WordPress 개발자",
+        "province": "원격",
+        "country": "말레이시아",
+        "institution": "Phitomas Sdn Bhd",
+        "text": "여러 말레이시아 및 국제 클라이언트를 위한 WordPress 웹사이트를 개발하고 맞춤화하여 반응형 고성능 결과를 보장했습니다. 고객 요구사항에 맞춰 HTML, CSS, PHP 및 JavaScript를 사용하여 처음부터 끝까지 맞춤형 테마를 구축했습니다. 두 모듈에 대한 자세한 성능 보고서를 수집하고 분석하여 고위 경영진에게 실행 가능한 통찰을 제공하고 데이터 기반 의사결정을 촉진했습니다. 사이트 기능을 향상시키고 특정 비즈니스 요구를 충족하는 맞춤형 플러그인을 설계하고 개발했습니다.",
+        "list": [],
+        "tags": []
+    }
+}
+                }
+            ]
+        }
+    ]
+}
