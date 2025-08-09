@@ -1,0 +1,582 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            },
+            "fr": {
+                "title_short": "Capacités",
+                "title_short_nav": "Capacités",
+                "title_long_prefix": "Explorez",
+                "title_long": "Mes {{Compétences}}"
+            },
+            "ko": {
+                "title_short": "스킬",
+                "title_short_nav": "스킬",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{스킬}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-wordpress",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{WordPress}} Development",
+                            "text": "I specialize in WordPress, creating responsive websites with custom themes and plugins!"
+                        },
+                        "es": {
+                            "title": "Desarrollo {{WordPress}}",
+                            "text": "¡Me especializo en WordPress, creando sitios web responsivos con temas y complementos personalizados!"
+                        },
+                        "fr": {
+                            "title": "Développement {{WordPress}}",
+                            "text": "Je suis spécialisé dans WordPress, créant des sites web responsives avec des thèmes et plugins personnalisés !"
+                        },
+                        "ko": {
+                            "title": "{{WordPress}} 개발",
+                            "text": "저는 WordPress에 전문화되어 있으며, 맞춤형 테마와 플러그인으로 반응형 웹사이트를 만듭니다!"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "", "fill": "#4479A1"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{MySQL}} Database Management",
+                            "text": "I can manage and optimize MySQL databases for performance and reliability."
+                        },
+                        "es": {
+                            "title": "Gestión de bases de datos {{MySQL}}",
+                            "text": "Puedo gestionar y optimizar bases de datos MySQL para rendimiento y fiabilidad."
+                        },
+                        "fr": {
+                            "title": "Gestion de bases de données {{MySQL}}",
+                            "text": "Je peux gérer et optimiser les bases de données MySQL pour la performance et la fiabilité."
+                        },
+                        "ko": {
+                            "title": "{{MySQL}} 데이터베이스 관리",
+                            "text": "성능과 안정성을 위해 MySQL 데이터베이스를 관리하고 최적화할 수 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-mobile-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Mobile App Development",
+                            "text": "I can build creative and innovative mobile apps using modern frameworks like WordpressNative."
+                        },
+                        "es": {
+                            "title": "Desarrollo de Aplicaciones Móviles",
+                            "text": "Puedo construir aplicaciones móviles creativas e innovadoras utilizando frameworks modernos como WordpressNative."
+                        },
+                        "fr": {
+                            "title": "Développement d'Applications Mobiles",
+                            "text": "Je peux créer des applications mobiles créatives et innovantes en utilisant des frameworks modernes comme WordpressNative."
+                        },
+                        "ko": {
+                            "title": "모바일 앱 개발",
+                            "text": "저는 WordpressNative와 같은 최신 프레임워크를 사용하여 창의적이고 혁신적인 모바일 앱을 만들 수 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "REST APIs",
+                            "text": "I can design and build RESTful API services for robust web applications."
+                        },
+                        "es": {
+                            "title": "APIs {{REST}}",
+                            "text": "Puedo diseñar y construir servicios API RESTful para aplicaciones web robustas."
+                        },
+                        "fr": {
+                            "title": "APIs {{REST}}",
+                            "text": "Je peux concevoir et créer des services API RESTful pour des applications web robustes."
+                        },
+                        "ko": {
+                            "title": "{{REST}} API",
+                            "text": "저는 견고한 웹 애플리케이션을 위한 RESTful API 서비스를 설계하고 구축할 수 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-lock",
+                    "faIconColors": {"bg": "", "fill": "#2496ED"},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Information Security",
+                            "text": "Security is a key priority. I can secure applications with best practices."
+                        },
+                        "es": {
+                            "title": "Seguridad Informática",
+                            "text": "La seguridad es una prioridad clave. Puedo asegurar aplicaciones con las mejores prácticas."
+                        },
+                        "fr": {
+                            "title": "Sécurité Informatique",
+                            "text": "La sécurité est une priorité clé. Je peux sécuriser les applications avec les meilleures pratiques."
+                        },
+                        "ko": {
+                            "title": "정보 보안",
+                            "text": "보안은 핵심 우선 사항입니다. 저는 최고의 관행으로 애플리케이션을 보호할 수 있습니다."
+                        }
+                    }
+                }
+            ]
+        },
+{
+    "id": 2,
+    "component": "ArticleSkills",
+    "locales": {
+        "en": {"title": "Backend Stack"},
+        "es": {"title": "Stack de Backend"},
+        "fr": {"title": "Stack Backend"},
+        "zh": {"title": "后端技术栈"}
+    },
+    "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "",
+            "faIcon": "fa-brands fa-node-js",
+            "faIconColors": {"bg": "", "fill": "#339933"},
+            "date": {"year": 0, "month": 0},
+            "percentage": 95,
+            "locales": {
+                "en": {
+                    "title": "Node.js",
+                    "text": "Proficient in Node.js for building efficient server-side applications."
+                },
+                "es": {
+                    "text": "Competente en Node.js para desarrollar aplicaciones del lado del servidor."
+                },
+                "fr": {
+                    "text": "Compétent en Node.js pour créer des applications côté serveur efficaces."
+                },
+                "ko": {
+                    "text": "효율적인 서버 측 애플리케이션을 구축하기 위해 Node.js에 능숙합니다."
+                }
+            }
+        },
+        {
+            "id": 2,
+            "img": "",
+            "faIcon": "fa-brands fa-java",
+            "faIconColors": {"bg": "", "fill": "#0295c2", "fillLight": "#007396"},
+            "date": {"year": 0, "month": 0},
+            "percentage": 85,
+            "locales": {
+                "en": {
+                    "title": "Java",
+                    "text": "Strong understanding of Java for backend services and server-side applications."
+                },
+                "es": {
+                    "text": "Sólido entendimiento de Java para servicios backend y aplicaciones del lado del servidor."
+                },
+                "fr": {
+                    "text": "Bonne compréhension de Java pour les services backend et les applications côté serveur."
+                },
+                "ko": {
+                    "text": "백엔드 서비스 및 서버 측 애플리케이션을 위한 Java에 대한 강한 이해."
+                }
+            }
+        },
+        {
+            "id": 4,
+            "img": "",
+            "faIcon": "fa-solid fa-database",
+            "faIconColors": {"bg": "", "fill": "#4479A1"},
+            "date": {"year": 0, "month": 0},
+            "percentage": 70,
+            "locales": {
+                "en": {
+                    "title": "MySQL",
+                    "text": "Expert in managing and optimizing MySQL databases for performance and reliability."
+                },
+                "es": {
+                    "text": "Experto en la gestión y optimización de bases de datos MySQL para el rendimiento y fiabilidad."
+                },
+                "fr": {
+                    "text": "Expert dans la gestion et l'optimisation des bases de données MySQL pour la performance et la fiabilité."
+                },
+                "ko": {
+                    "text": "성능과 안정성을 위해 MySQL 데이터베이스를 관리하고 최적화하는 전문가입니다."
+                }
+            }
+        },
+        {
+            "id": 5,
+            "img": "",
+            "faIcon": "fa-brands fa-docker",
+            "faIconColors": {"bg": "", "fill": "#2496ED"},
+            "date": {"year": 0, "month": 0},
+            "percentage": 50,
+            "locales": {
+                "en": {
+                    "title": "Docker",
+                    "text": "Working knowledge of Docker for containerization and application management."
+                },
+                "es": {
+                    "text": "Conocimientos prácticos de Docker para la contenedorización y gestión de aplicaciones."
+                },
+                "fr": {
+                    "text": "Connaissance pratique de Docker pour la conteneurisation et la gestion des applications."
+                },
+                "ko": {
+                    "text": "컨테이너화 및 애플리케이션 관리를 위한 Docker에 대한 실무 지식."
+                }
+            }
+        },
+        {
+            "id": 6,
+            "img": "",
+            "faIcon": "fa-brands fa-php",
+            "faIconColors": {"bg": "", "fill": "#FFD700", "fillLight": "#4F5B93"},
+            "date": {"year": 0,"month": 0},
+            "percentage": 100,
+            "locales": {
+                "en": {
+                    "title": "PHP 8.0+",
+                    "text": "In-depth experience with PHP and frameworks for building backend services."
+                },
+                "es": {
+                    "text": "Experiencia profunda con PHP y frameworks para construir servicios backend."
+                },
+                "fr": {
+                    "text": "Expérience approfondie avec PHP et ses frameworks pour créer des services backend."
+                },
+                "ko": {
+                    "text": "백엔드 서비스를 구축하기 위한 PHP 및 그 프레임워크에 대한 깊은 경험."
+                }
+            }
+        },
+        {
+            "id": 7,
+            "img": "",
+            "faIcon": "fa-brands fa-python",
+            "faIconColors": {"bg": "", "fill": "#306998"},
+            "date": {"year":0, "month": 0},
+            "percentage": 85,
+            "locales": {
+                "en": {
+                    "title": "Python",
+                    "text": "Proficient in Python for data analysis and machine learning."
+                },
+                "es": {
+                    "text": "Competente en Python para análisis de datos y aprendizaje automático."
+                },
+                "fr": {
+                    "text": "Compétent en Python pour l'analyse de données et l'apprentissage automatique."
+                },
+                "ko": {
+                    "text": "Python을 사용한 데이터 분석 및 기계 학습에 능숙합니다."
+                }
+            }
+        },
+        {
+            "id": 9,
+            "img": "",
+            "faIcon": "fa-solid fa-server",
+            "faIconColors": {"bg": "", "fill": "#47A248"},
+            "date": {"year": 0, "month": 0},
+            "percentage": 50,
+            "locales": {
+                "en": {
+                    "title": "MongoDB",
+                    "text": "Familiar with MongoDB for NoSQL database management."
+                }
+            }
+        },
+        {
+            "id": 10,
+            "img": "",
+            "faIcon": "fa-brands fa-git",
+            "faIconColors": {"bg": "", "fill": "#F05032"},
+            "date": {"year": 0, "month": 0},
+            "percentage": 90,
+            "locales": {
+                "en": {
+                    "title": "Git",
+                    "text": "Comprehensive knowledge of Git for version control and team collaboration."
+                },
+                "es": {
+                    "text": "Conocimiento completo de Git para control de versiones y colaboración en equipo."
+                },
+                "fr": {
+                    "text": "Connaissance approfondie de Git pour le contrôle de version et la collaboration en équipe."
+                },
+                "ko": {
+                    "text": "버전 관리 및 팀 협업을 위한 Git에 대한 포괄적인 지식."
+                }
+            }
+        }
+    ]
+},
+{
+    "id": 3,
+    "component": "ArticleSkills",
+    "locales": {
+        "en": {
+            "title": "Frontend Stack"
+        },
+        "es": {
+            "title": "Stack de Frontend"
+        },
+        "fr": {
+            "title": "Stack Frontend"
+        },
+        "zh": {
+            "title": "前端技术栈"
+        }
+    },
+    "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "",
+            "faIcon": "fa-brands fa-wordpress",
+            "faIconColors": {"bg": "", "fill": "#21759B"},
+            "date": {"year": null, "month": null},
+            "percentage": 100,
+            "locales": {
+                "en": {
+                    "title": "WordPress",
+                    "text": "Complete understanding of WordPress for building and managing websites. Proficient in custom theme and plugin development."
+                },
+                "es": {
+                    "text": "Comprensión completa de WordPress para construir y gestionar sitios web. Competente en el desarrollo de temas y complementos personalizados."
+                },
+                "fr": {
+                    "text": "Compréhension complète de WordPress pour créer et gérer des sites Web. Compétent dans le développement de thèmes et de plugins personnalisés."
+                },
+                "ko": {
+                    "text": "웹사이트를 구축하고 관리하기 위한 WordPress에 대한 완전한 이해. 맞춤형 테마 및 플러그인 개발에 능숙합니다."
+                }
+            }
+        },
+        {
+            "id": 2,
+            "img": "",
+            "faIcon": "fa-brands fa-html5",
+            "faIconColors": {"bg": "", "fill": "#E34F26"},
+            "date": {"year": null, "month": null},
+            "percentage": 100,
+            "locales": {
+                "en": {
+                    "title": "HTML5",
+                    "text": "Proficient in HTML5 for building structured web pages, including SEO-friendly elements."
+                },
+                "es": {
+                    "text": "Competente en HTML5 para crear páginas web estructuradas, incluyendo elementos compatibles con SEO."
+                },
+                "fr": {
+                    "text": "Compétent en HTML5 pour créer des pages Web structurées, y compris des éléments compatibles avec le référencement."
+                },
+                "ko": {
+                    "text": "SEO 친화적인 요소를 포함한 구조화된 웹 페이지를 구축하기 위한 HTML5에 능숙합니다."
+                }
+            }
+        },
+        {
+            "id": 3,
+            "img": "",
+            "faIcon": "fa-brands fa-css3-alt",
+            "faIconColors": {"bg": "", "fill": "#1572B6"},
+            "date": {"year": null, "month": null},
+            "percentage": 95,
+            "locales": {
+                "en": {
+                    "title": "CSS3",
+                    "text": "Skilled in CSS3 for styling and customizing web layouts, including responsive and mobile-first design."
+                },
+                "es": {
+                    "text": "Hábil en CSS3 para estilizar y personalizar diseños web, incluyendo diseño receptivo y móvil primero."
+                },
+                "fr": {
+                    "text": "Compétent en CSS3 pour la mise en forme et la personnalisation des mises en page Web, y compris le design réactif et mobile-first."
+                },
+                "ko": {
+                    "text": "응답형 및 모바일 우선 디자인을 포함하여 웹 레이아웃을 스타일링하고 사용자 정의하는 CSS3에 능숙합니다."
+                }
+            }
+        },
+        {
+            "id": 4,
+            "img": "",
+            "faIcon": "fa-brands fa-js",
+            "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
+            "date": {"year": null, "month": null},
+            "percentage": 80,
+            "locales": {
+                "en": {
+                    "title": "JavaScript",
+                    "text": "Experienced in JavaScript for enhancing functionality on WordPress websites through custom scripts."
+                },
+                "es": {
+                    "text": "Experto en JavaScript para mejorar la funcionalidad en sitios web de WordPress mediante scripts personalizados."
+                },
+                "fr": {
+                    "text": "Expérimenté en JavaScript pour améliorer les fonctionnalités sur les sites Web WordPress grâce à des scripts personnalisés."
+                },
+                "ko": {
+                    "text": "WordPress 웹사이트에서 사용자 정의 스크립트를 통해 기능을 향상시키기 위한 JavaScript 경험이 있습니다."
+                }
+            }
+        },
+        {
+            "id": 5,
+            "img": "",
+            "faIcon": "fa-brands fa-php",
+            "faIconColors": {"bg": "", "fill": "#4F5B93"},
+            "date": {"year": null, "month": null},
+            "percentage": 90,
+            "locales": {
+                "en": {
+                    "title": "PHP",
+                    "text": "Proficient in PHP for WordPress backend development and plugin creation."
+                },
+                "es": {
+                    "text": "Competente en PHP para el desarrollo de backend de WordPress y creación de complementos."
+                },
+                "fr": {
+                    "text": "Compétent en PHP pour le développement backend de WordPress et la création de plugins."
+                },
+                "ko": {
+                    "text": "WordPress 백엔드 개발 및 플러그인 생성에 대한 PHP에 능숙합니다."
+                }
+            }
+        },
+        {
+            "id": 6,
+            "img": "",
+            "faIcon": "fa-brands fa-wordpress",
+            "faIconColors": {"bg": "", "fill": "#21759B"},
+            "date": {"year": null, "month": null},
+            "percentage": 85,
+            "locales": {
+                "en": {
+                    "title": "WordPress Theme & Plugin Development",
+                    "text": "Advanced skills in creating custom themes and plugins for WordPress websites."
+                },
+                "es": {
+                    "text": "Habilidades avanzadas en la creación de temas y complementos personalizados para sitios web de WordPress."
+                },
+                "fr": {
+                    "text": "Compétences avancées dans la création de thèmes et de plugins personnalisés pour les sites Web WordPress."
+                },
+                "ko": {
+                    "text": "WordPress 웹사이트용 맞춤형 테마 및 플러그인 생성에 대한 고급 기술."
+                }
+            }
+        }
+    ]
+},
+
+        {
+            "id": 4,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Languages"},
+                "es": {"title": "Idiomas"},
+                "fr": {"title": "Langues"},
+                "zh": {"title": "语言"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Advance speaker with excellent communication and writing skills.",
+                            "level": "Adcance"
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "text": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
+                            "level": "Nativo"
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "text": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
+                            "level": "Natif"
+                        },
+                        "ko": {
+                            "title": "영어",
+                            "text": "탁월한 의사소통 및 작문 능력을 갖춘 원어민.",
+                            "level": "원어민"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
